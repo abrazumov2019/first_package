@@ -1,0 +1,21 @@
+{
+    "name": "vabrazumov/first_package",
+    "description": "It's my first package, it isn't very functionality",
+    "type": "library",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Vitaly Abrazumov",
+            "email": "abrazumov2019@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vabrazumov\\FirstPackage\\" : "src/"
+        }
+    }
+}
